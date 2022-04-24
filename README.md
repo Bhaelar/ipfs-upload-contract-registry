@@ -5,6 +5,8 @@ All CIDS stored for a particular Ethereum address can also be retrieved.
 
 ## Running the application
 - After downloading the source code, run `npm install` to install all dependencies
+- Include your account and private key details in `upload.ts`
+- Run `npx tsc` to compile the code
 - Navigate to the build folder with `cd build`
 - To Upload a file to IPFS, enter `node cli upload <filePath>`. `<filePath>` is the path of a file on your computer that you wish to upload to IPFS.
 - If successful, the following message is logged on the terminal: `The hash of your transaction is: <transactionHash>`. Else, an error message is displayed
