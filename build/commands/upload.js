@@ -15,7 +15,6 @@ const client = (0, ipfs_http_client_1.create)({
 const goerliProvider = new web3_1.default.providers.HttpProvider("https://goerli.infura.io/v3/40861e6a38424fdeaf9888d011aa284c");
 const web3 = new web3_1.default(goerliProvider || web3_1.default.givenProvider);
 const account = "0xe66D0556C8a103adfa6C9a60018CD4D8AD78044C";
-web3.eth.defaultAccount = account;
 const privateKey = "b055716e0075e0f3da78e2f0752869abc7390c47fbf1030054b63af124291664";
 const address = "0x7Eb45FC38fc4E920fa124783eccc5765E1711Df3";
 exports.command = "upload <filePath>";

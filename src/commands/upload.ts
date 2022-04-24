@@ -17,7 +17,6 @@ const goerliProvider = new Web3.providers.HttpProvider(
 );
 const web3 = new Web3(goerliProvider || Web3.givenProvider);
 const account = "0xe66D0556C8a103adfa6C9a60018CD4D8AD78044C";
-web3.eth.defaultAccount = account;
 const privateKey: string =
   "b055716e0075e0f3da78e2f0752869abc7390c47fbf1030054b63af124291664";
 
